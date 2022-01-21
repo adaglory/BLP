@@ -455,6 +455,7 @@
             autoplayHoverPause:true,
             dots: false,
             nav: false,
+            items:1,
             responsive: {
                 0 : {
                     items: 1
@@ -513,6 +514,43 @@
                 },
                 1500 : {
                     items: 2
+                },
+
+            }
+        });
+    }
+    /*  Event Slider */
+    if ($(".event-slider").length) {
+        $(".event-slider").owlCarousel({
+            autoplay: true,
+            smartSpeed: 300,
+            margin: 100,
+            loop:true,
+            autoplayHoverPause:true,
+            dots: false,
+            nav: true,
+            navText: ['<i class="fi flaticon-left-arrow"></i>','<i class="fi flaticon-right-arrow"></i>'],
+            items:1,
+            responsive: {
+                0 : {
+                    items: 1,
+                },
+
+                767 : {
+                    items: 2
+                },
+                1200 : {
+                    items: 1
+                },
+                1300 : {
+                    items: 1
+                },
+
+                1400 : {
+                    items: 1,
+                },
+                1500 : {
+                    items: 1
                 },
 
             }
@@ -668,7 +706,11 @@
         return false;
     })
 
-
+  /*------------------------------------------
+        = lighbox slider
+    -------------------------------------------*/
+   
+    
     /*------------------------------------------
         = CONTACT FORM SUBMISSION
     -------------------------------------------*/
