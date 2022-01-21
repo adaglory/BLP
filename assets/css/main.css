@@ -247,7 +247,7 @@ img.hover-shadow {
 
 @media (max-width: 440px){
   .wpo-site-header .navbar-header .navbar-brand img {
-      max-width: 70px;
+      max-width: 200px;
   }
   }
 
