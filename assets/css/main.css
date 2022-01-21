@@ -221,7 +221,13 @@ img.hover-shadow {
 .widget .form-group input{
   padding: 10px 20px;
 }
-
+.wpo-about-section-s4 .wpo-about-items, .wpo-about-items {
+  background: #fff;
+  border-radius: 20px;
+}
+.wpo-about-section-s4 {
+  padding-top: 90px;
+}
 
 
 

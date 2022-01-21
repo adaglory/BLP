@@ -199,7 +199,7 @@ h2.hidden {
 }
 
 .section-padding {
-  padding: 120px 0;
+  padding: 90px 0;
 }
 @media (max-width: 767px) {
   .section-padding {
@@ -3151,7 +3151,7 @@ h2.hidden {
     height: 450px;
   }
 }
-.wpo-hero-section-4:after,
+/* .wpo-hero-section-4:after,
 .wpo-hero-section-7:after {
   position: absolute;
   left: 0;
@@ -3161,7 +3161,7 @@ h2.hidden {
   content: "";
   background: url(../images/slider/left-shape-3.png) no-repeat right center;
   z-index: -1;
-}
+} */
 @media (max-width: 1300px) {
   .wpo-hero-section-4:after,
 .wpo-hero-section-7:after {
@@ -5502,7 +5502,6 @@ wpo-hero-section-6
 }
 
 /* 3.9 wpo-blog-section */
-.wpo-blog-section,
 .wpo-blog-section-s2,
 .wpo-blog-section-s3 {
   background: #fef6f3;
