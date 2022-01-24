@@ -37,13 +37,37 @@
 .wpo-features-icon .icon img{
   width: 50px;
 }
-
-
+.theme-btn-s2{
+  margin-top: 20px;
+}
+.about-highlight > p > .project{
+  color: #05e66a;
+  padding: 0px 5px;
+}
+.about-highlight > p > .country{
+  color: #72449A;
+  padding: 0px 5px;
+}
+.about-highlight > p > .people{
+  padding: 0px 5px;
+}
 .wpo-blog-section-s3 {
   background: #fff;
   padding-bottom: 90px;
 }
+.about-highlight{
+  border-left: 3px solid rgb(240, 237, 237);
+  padding-left: 12px;
+  border-radius: 2px;
 
+}
+
+.about-highlight > p > span{
+  display: inline !important;
+}
+.about-highlight p{
+  margin-bottom: 0px !important;
+}
 
 .mini-gallery > .row > .column {
   padding: 0 8px;
@@ -53,6 +77,13 @@
   content: "";
   display: table;
   clear: both;
+}
+.wpo-about-section-s2 {
+  padding-top: 120px;
+}
+
+.wpo-features-section-s6 {
+    background: #fff;
 }
 
 /* Create four equal columns that floats next to eachother */

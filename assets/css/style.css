@@ -3121,8 +3121,9 @@ h2.hidden {
 
 .wpo-hero-section-4,
 .wpo-hero-section-7 {
-  background: url(../images/slider/banner-1.png) no-repeat right center;
+  background: url(../images/slider/banner-1.png) no-repeat center;
   z-index: 1;
+  background-size: cover;
   height: 995px;
   overflow: hidden;
   position: relative;
@@ -5810,7 +5811,7 @@ wpo-hero-section-6
   height: 120%;
   width: 140%;
   content: "";
-  background: #fef6f3;
+  background: #e9fafa;
   z-index: -1;
   border-radius: 0px 323.36px 356.64px 0px;
 }
@@ -7102,7 +7103,7 @@ wpo-hero-section-6
 
 /* 9.2 wpo-features-section-s6  */
 .wpo-features-section-s6 {
-  background: #e9fafa;
+  background:#fef6f3;
 }
 
 /*--------------------------------------------------------------
