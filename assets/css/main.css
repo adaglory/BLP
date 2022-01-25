@@ -82,8 +82,14 @@
   padding-top: 120px;
 }
 
-.wpo-features-section-s6 {
+.index-page .wpo-features-section-s6 {
     background: #fff;
+}
+.about-page .wpo-features-section-s6{
+  background: #e9fafa
+}
+.about-us .wpo-about-text{
+  text-align: center;
 }
 
 /* Create four equal columns that floats next to eachother */
@@ -252,7 +258,7 @@ img.hover-shadow {
 .widget .form-group input{
   padding: 10px 20px;
 }
-.wpo-about-section-s4 .wpo-about-items, .wpo-about-items {
+.index-page .wpo-about-section-s4 .wpo-about-items, .wpo-about-items {
   background: #fff;
   border-radius: 20px;
 }
@@ -260,7 +266,9 @@ img.hover-shadow {
   padding-top: 90px;
 }
 
-
+.about-page .wpo-campaign-area {
+  background: #fef6f3;
+}
 
 
 
