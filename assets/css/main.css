@@ -276,7 +276,9 @@ img.hover-shadow {
   padding-top: 0px;
 }
 
-
+.about-page .wpo-about-section-s6 .wpo-about-items .wpo-about-text {
+  padding-left: 20px !important;
+}
 
 
 
