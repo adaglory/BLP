@@ -26,7 +26,7 @@
 
 <body>
     <!-- start page-wrapper -->
-    <div class="page-wrapper">
+    <div class="page-wrapper about-page">
         <!-- start preloader -->
         <div class="preloader">
             <div class="vertical-centered-box">
@@ -35,7 +35,6 @@
                     <div class="loader-line-mask">
                         <div class="loader-line"></div>
                     </div>
-                    <!-- <img src="assets/images/preloader.png" alt=""> -->
                 </div>
             </div>
         </div>
@@ -74,7 +73,7 @@
                                 <li class="menu-item-has-children">
                                     <a href="#">Programs</a>
                                     <ul class="sub-menu">
-                                        <li><a href="#">Cottage Industry</a></li>
+                                        <li><a href="cottage-industry.html">Cottage Industry</a></li>
                                         <li><a href="#">Impact 500</a></li>
                                         <li><a href="#">Advocacy</a></li>
                                     </ul>
@@ -126,8 +125,8 @@
         <!-- start of wpo-about-section -->
         <section class="wpo-about-section-s2 section-padding">
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-12 col-12">
+                <div class="row align-items-center justify-content-center">
+                    <!-- <div class="col-lg-8 col-md-12 col-12">
                         <div class="wpo-about-wrap">
                             <div class="wpo-about-img">
                                 <img src="assets/images/index/about.png" alt="">                              
@@ -137,21 +136,56 @@
                                 <div class="round-ball-4"></div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12 col-12">
+                    </div> -->
+                    <div class="col-lg-10 col-md-12 col-12 about-us">
                         <div class="wpo-about-text">
                             <span>About Us</span>
                             <h2>Better Life Program for the African Rural Woman</h2>
                             Founded in 1987 to bring about an emergence of economically empowered African women living better and participating effectively in the process of national development. To achieve this, we run different programs and initiatives with our members as well as local and international partners.</p>                            
-                            <a class="theme-btn-s2" href="about.html">Learn More</a>
+                            <div class="about-highlight">
+                                <p>Helped Fund <span class="project">2537</span> projects in <span class="country">7 Countries</span></p>
+                                <p>Benefiting over <span class="people">2.4 Million</span> people</p>
+                               </div>  
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- end of wpo-about-section -->
-		
-		<!-- start of wpo-features-section -->
+		<!--Founder section-->
+        <section class="wpo-about-section-s6 section-padding">
+            <div class="container">
+                <div class="wpo-about-items">
+                    <div class="row align-items-center">
+                        <div class="col-lg-5 col-md-12 col-12">
+                            <div class="wpo-about-wrap">
+                                <div class="wpo-about-img">
+                                    <img src="assets/images/about6.jpg" alt="">
+                                    <div class="shp-1"></div>
+                                    <div class="shp-2"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-12">
+                            <div class="wpo-about-text">
+                                <span>Founder</span>
+                                <h2>Founder's Name</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
+                                    gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                                <ul>
+                                    <li>The standard chunk of Lorem Ipsum used since.</li>
+                                    <li>Randomised words which don't look even slightly believable.</li>
+                                    <li>Making this the first true generator on the Internet.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--end of founder section-->
+		<!-- what we do section -->
 		<section class="wpo-features-section-s6 section-padding">
 			<div class="container">
 				<div class="row justify-content-center">
@@ -206,98 +240,282 @@
 				</div>
 			</div>
 		</section>
-		<!-- end of wpo-features-section -->
-	
-	
-
-             <!-- start of wpo-founder-section -->
-             <section class="wpo-about-section-s6 section-padding founder-section">
-                <div class="container">
-                    <div class="wpo-about-items">
-                        <div class="row align-items-center">
-                            <div class="col-lg-6 col-md-12 col-12">
-                                <div class="wpo-about-text ">
-                                    <span>Founder</span>
-                                    <h2>Founder's Name</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
-                                        gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>  
-                                </div>
-                                <div class="mini-gallery">
-                                    <!-- Images used to open the lightbox -->
-                                        <div class="row">
-                                            <div class="column col-md-3">
-                                            <img src="assets/images/slider/client2.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
-                                            </div>
-                                            <div class="column col-md-3">
-                                            <img src="assets/images/slider/client3.png" onclick="openModal();currentSlide(2)" class="hover-shadow">
-                                            </div>
-                                            <div class="column col-md-3">
-                                            <img src="assets/images/slider/client4.png" onclick="openModal();currentSlide(3)" class="hover-shadow">
-                                            </div>
-                                            <div class="column col-md-3">
-                                            <img src="assets/images/slider/client1.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
-                                            </div>
-                                        </div>
-                                    <!-- The Modal/Lightbox -->
-                                    <div id="myModal" class="modal">
-                                        <span class="close cursor" onclick="closeModal()">&times;</span>
-                                        <div class="modal-content">
-                                    
-                                        <div class="mySlides">
-                                            <div class="numbertext">1 / 4</div>
-                                            <img src="assets/images/saukihealth.png" style="width:100%">
-                                        </div>
-                                    
-                                        <div class="mySlides">
-                                            <div class="numbertext">2 / 4</div>
-                                            <img src="assets/images/slider/slider-1.jpg" style="width:100%">
-                                        </div>
-                                    
-                                        <div class="mySlides">
-                                            <div class="numbertext">3 / 4</div>
-                                            <img src="assets/images/slider/slider-2.jpg" style="width:100%">
-                                        </div>
-                                    
-                                        <div class="mySlides">
-                                            <div class="numbertext">4 / 4</div>
-                                            <img src="assets/images/slider/slider-1.jpg" style="width:100%">
-                                        </div>
-                                    
-                                        <!-- Next/previous controls -->
-                                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                                    
-                                        <!-- Caption text -->
-                                        <div class="caption-container">
-                                            <p id="caption"></p>
-                                        </div>
-                                       
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-5 col-md-12 col-12">
-                                <div class="wpo-about-wrap">
-                                    <div class="wpo-about-img">
-                                        <img src="assets/images/about6.jpg" alt="">
-                                        <div class="shp-1"></div>
-                                        <div class="shp-2"></div>
-                                    </div>
-                                </div>
-                            </div>
-                          
+		<!-- end of what we do section -->
+        <!--testimonial section-->
+        <section class="wpo-testimonial-area-s3 section-padding">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="wpo-section-title">
+                            <span>Testimonial</span>
+                            <h2>What People Say About Us</h2>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                suffered alteration in some form,</p>
                         </div>
                     </div>
                 </div>
-            </section>
-            <!-- end of wpo-founder-section -->
+                <div class="wpo-testimonial-wrap">
+                    <div class="testimonial-slider-s2 owl-carousel">
+                        <div class="wpo-testimonial-item">
+                            <div class="wpo-testimonial-img">
+                                <img src="assets/images/testimonial/img-1.jpg" alt="">
+                            </div>
+                            <div class="wpo-testimonial-content">
+                                <p>Lorem ipsum dolor sitery amet, consectetur adiping elit,  don’t eusmod tempor incididunt utor labo magna aliqjtua.</p>
+                                <h2>Harverd Tommy</h2>
+                                <span>Maneger Of MNTR</span>
+                            </div>
+                        </div>
+                        <div class="wpo-testimonial-item">
+                            <div class="wpo-testimonial-img">
+                                <img src="assets/images/testimonial/img-2.jpg" alt="">
+                            </div>
+                            <div class="wpo-testimonial-content">
+                                <p>Lorem ipsum dolor sitery amet, consectetur adiping elit,  don’t eusmod tempor incididunt utor labo magna aliqjtua.</p>
+                                <h2>Marry Jenefer</h2>
+                                <span>CEO Of Golden Bravo</span>
+                            </div>
+                        </div>
+                        <div class="wpo-testimonial-item">
+                            <div class="wpo-testimonial-img">
+                                <img src="assets/images/testimonial/img-3.jpg" alt="">
+                            </div>
+                            <div class="wpo-testimonial-content">
+                                <p>Lorem ipsum dolor sitery amet, consectetur adiping elit,  don’t eusmod tempor incididunt utor labo magna aliqjtua.</p>
+                                <h2>William Robert</h2>
+                                <span>CEO Of Bexima</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--end of testimonial section-->
+        <!--Team section-->
+        <section class="wpo-team-area-s2 section-padding">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="wpo-section-title">
+                            <span>Expert Team</span>
+                            <h2>Meet Our Volunteer Team</h2>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                suffered alteration in some form,</p>
+                        </div>
+                    </div>
+                </div>
+                <section class="wpo-about-section-s4 section-padding">
+                    <div class="container">
+                        <div class="wpo-about-items">
+                            <div class="row align-items-center">
+                                <div class="col-lg-5 col-md-12 col-12">
+                                    <div class="wpo-about-wrap">
+                                        <div class="wpo-about-img">
+                                            <img src="assets/images/about4.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12 col-12">
+                                    <div class="wpo-about-text">
+                                        <span>ChairPerson</span>
+                                        <h2>Chairperson's Name</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                            incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
+                                            gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="wpo-team-wrap">
+                    <div class="team-items">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 col-12">
+                                <div class="wpo-team-item">
+                                    <div class="wpo-team-img">
+                                        <img src="assets/images/team/2.jpg" alt="">
+                                    </div>
+                                    <div class="wpo-team-content">
+                                        <h2><a href="team-single.html">Maria Belziana</a></h2>
+                                        <span>Volunteer</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-12">
+                                <div class="wpo-team-item">
+                                    <div class="wpo-team-img">
+                                        <img src="assets/images/team/3.jpg" alt="">
+                                    </div>
+                                    <div class="wpo-team-content">
+                                        <h2><a href="team-single.html">Robert Chirls</a></h2>
+                                        <span>Volunteer</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-12">
+                                <div class="wpo-team-item">
+                                    <div class="wpo-team-img">
+                                        <img src="assets/images/team/4.jpg" alt="">
+                                    </div>
+                                    <div class="wpo-team-content">
+                                        <h2><a href="team-single.html">William Frost</a></h2>
+                                        <span>CEO</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-12">
+                                <div class="wpo-team-item">
+                                    <div class="wpo-team-img">
+                                        <img src="assets/images/team/5.jpg" alt="">
+                                    </div>
+                                    <div class="wpo-team-content">
+                                        <h2><a href="team-single.html">Zenefer Marry</a></h2>
+                                        <span>Maneger</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--end of team section-->
 
-       
-    
-
-
-
+        <!--our special campaigns-->
+        <div class="wpo-campaign-area section-padding">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="wpo-section-title">
+                            <span>We Love To Help Poor</span>
+                            <h2>Our Featured Campaigns</h2>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                suffered alteration in some form,</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="wpo-campaign-wrap">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="wpo-campaign-single">
+                                <div class="wpo-campaign-item">
+                                    <div class="wpo-campaign-img">
+                                        <img src="assets/images/campaign/1.jpg" alt="">
+                                        <span class="thumb">Education</span>
+                                    </div>
+                                    <div class="wpo-campaign-content">
+                                        <div class="wpo-campaign-text-top">
+                                            <h2><a href="cause-single.html">Help To Build a Secure Life Of a Poor
+                                                    Children.</a></h2>
+                                            <div class="progress-section">
+                                                <div class="process">
+                                                    <div class="progress">
+                                                        <div class="progress-bar" style="width: 75%;">
+                                                            <div class="progress-value"><span>75</span>%</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <ul>
+                                                <li><span>Goal:</span> $3,000.00</li>
+                                                <li><span>Raised:</span> $2,000.00</li>
+                                            </ul>
+                                            <div class="campaign-btn">
+                                                <ul>
+                                                    <li>
+                                                        <span><img src="assets/images/campaign/1.png" alt=""></span>
+                                                        <span><a href="event-single.html">Laura Faiary</a></span>
+                                                    </li>
+                                                    <li><a class="e-btn" href="#">Donate Now</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="wpo-campaign-single">
+                                <div class="wpo-campaign-item">
+                                    <div class="wpo-campaign-img">
+                                        <img src="assets/images/campaign/2.jpg" alt="">
+                                        <span class="thumb-2">Food</span>
+                                    </div>
+                                    <div class="wpo-campaign-content">
+                                        <div class="wpo-campaign-text-top">
+                                            <h2><a href="cause-single.html">Ensure Clean Water To The African Kids.</a>
+                                            </h2>
+                                            <div class="progress-section">
+                                                <div class="process">
+                                                    <div class="progress">
+                                                        <div class="progress-bar" style="width: 75%;">
+                                                            <div class="progress-value"><span>75</span>%</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <ul>
+                                                <li><span>Goal:</span> $3,000.00</li>
+                                                <li><span>Raised:</span> $2,000.00</li>
+                                            </ul>
+                                            <div class="campaign-btn">
+                                                <ul>
+                                                    <li>
+                                                        <span><img src="assets/images/campaign/1.png" alt=""></span>
+                                                        <span><a href="event-single.html">Laura Faiary</a></span>
+                                                    </li>
+                                                    <li><a class="e-btn" href="#">Donate Now</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="wpo-campaign-single">
+                                <div class="wpo-campaign-item">
+                                    <div class="wpo-campaign-img">
+                                        <img src="assets/images/campaign/3.jpg" alt="">
+                                        <span class="thumb">Medicine</span>
+                                    </div>
+                                    <div class="wpo-campaign-content">
+                                        <div class="wpo-campaign-text-top">
+                                            <h2><a href="cause-single.html">Your Help Can Save A Human Life From
+                                                    Death.</a></h2>
+                                            <div class="progress-section">
+                                                <div class="process">
+                                                    <div class="progress">
+                                                        <div class="progress-bar" style="width: 75%;">
+                                                            <div class="progress-value"><span>75</span>%</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <ul>
+                                                <li><span>Goal:</span> $3,000.00</li>
+                                                <li><span>Raised:</span> $2,000.00</li>
+                                            </ul>
+                                            <div class="campaign-btn">
+                                                <ul>
+                                                    <li>
+                                                        <span><img src="assets/images/campaign/1.png" alt=""></span>
+                                                        <span><a href="event-single.html">Laura Faiary</a></span>
+                                                    </li>
+                                                    <li><a class="e-btn" href="#">Donate Now</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end of our sepcial campaign-->
         <!-- start of wpo-site-footer-section -->
         <footer class="wpo-site-footer">
             <div class="wpo-upper-footer">

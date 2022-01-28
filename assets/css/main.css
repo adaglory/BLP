@@ -82,8 +82,14 @@
   padding-top: 120px;
 }
 
-.wpo-features-section-s6 {
+.index-page .wpo-features-section-s6 {
     background: #fff;
+}
+.about-page .wpo-features-section-s6{
+  background: #e9fafa
+}
+.about-us .wpo-about-text{
+  text-align: center;
 }
 
 /* Create four equal columns that floats next to eachother */
@@ -252,7 +258,7 @@ img.hover-shadow {
 .widget .form-group input{
   padding: 10px 20px;
 }
-.wpo-about-section-s4 .wpo-about-items, .wpo-about-items {
+.index-page .wpo-about-section-s4 .wpo-about-items, .wpo-about-items {
   background: #fff;
   border-radius: 20px;
 }
@@ -260,8 +266,68 @@ img.hover-shadow {
   padding-top: 90px;
 }
 
+.about-page .wpo-campaign-area {
+  background: #fef6f3;
+}
+.about-page .wpo-about-section-s2 .wpo-about-text{
+  max-width: 100%;
+}
+.about-page .wpo-about-section-s4{
+  padding-top: 0px;
+}
 
+.about-page .wpo-about-section-s6 .wpo-about-items .wpo-about-text {
+  padding-left: 20px !important;
+}
+.about-page .wpo-breadcumb-area {
+  background: url(../images/about/about-header.png) no-repeat center top/cover;
+}
+.cottage-page .wpo-breadcumb-area {
+  background: url(../images/cottage/cottage-bg.png) no-repeat center top/cover;
+}
+.cottage-page  .wpo-about-section-s5 {
+  padding-top: 120px;
+}
+.cottage-page .wpo-about-text .wpo-sheafeature-section .wpo-features-icon {
+  background: #dafdf9;
+  box-shadow: 0px 0px 63px 0px rgb(4 8 88 / 5%);
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 50%;
+  position: relative;
+   
+}
+.cottage-page .wpo-about-text .wpo-sheafeature-section .wpo-features-icon .fi{
+  font-size: 60px;
+  color: #5dc4b8;
+}
+.cottage-page .wpo-about-text .wpo-sheafeature-section .col:nth-child(2) .wpo-features-icon .fi {
+  color: #ef5f34;
+}
 
+.cottage-page .wpo-about-text .wpo-sheafeature-section .col:nth-child(2) .wpo-features-icon{
+  background: #ffefeb;
+}
+.cottage-page .wpo-about-text .wpo-sheafeature-section .col:nth-child(3) .wpo-features-icon .fi {
+  color: #2eb1dc;
+}
+
+.cottage-page .wpo-about-text .wpo-sheafeature-section .col:nth-child(3) .wpo-features-icon{
+  background: #d2ecf4;
+}
+
+.wpo-sheafeature-section h4{
+  text-align: center;
+}
+.cottage-page .wpo-about-section-s3 {
+  padding-top: 90px;
+}
+.cottage-page .wpo-about-video-area {
+  padding-top: 60px;
+}
 
 
 
