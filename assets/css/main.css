@@ -37,6 +37,9 @@
 .wpo-features-icon .icon img{
   width: 50px;
 }
+.advocacy-page .wpo-features-icon .icon img{
+  width: 80px;
+}
 .theme-btn-s2{
   margin-top: 20px;
 }
@@ -285,6 +288,9 @@ img.hover-shadow {
 .cottage-page .wpo-breadcumb-area {
   background: url(../images/cottage/cottage-bg.png) no-repeat center top/cover;
 }
+.advocacy-page .wpo-breadcumb-area {
+  background: url(../images/advocacy/advocacy.png) no-repeat center top/cover;
+}
 .cottage-page  .wpo-about-section-s5 {
   padding-top: 120px;
 }
@@ -328,8 +334,30 @@ img.hover-shadow {
 .cottage-page .wpo-about-video-area {
   padding-top: 60px;
 }
-
-
+.advocacy-page .wpo-features-section-s2 .wpo-features-item .wpo-features-text p{
+  font-size: 14px;
+}
+.advocacy-page .wpo-features-section-s2 .wpo-features-item{
+  height: 400px;
+}
+.wpo-features-section-s2 .advocacy-row .col:nth-child(2) .wpo-features-item {
+  background: #f1e0ff;
+}
+.wpo-features-section-s2 .advocacy-row .col:nth-child(2) .wpo-features-item .fi{
+  color: #72449A;
+}
+.wpo-features-section-s2 .advocacy-row .wpo-features-item {
+  background: #dcffec;;
+}
+.wpo-features-section-s2 .advocacy-row .wpo-features-item .fi{
+  color: #05e66a;;
+}
+.wpo-features-section-s2 .advocacy-row .col:nth-child(3) .wpo-features-item {
+  background: #ffdfe0;
+}
+.wpo-features-section-s2 .advocacy-row .col:nth-child(3) .wpo-features-item .fi{
+  color: #ED2024;
+}
 
 
 
