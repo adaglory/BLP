@@ -324,7 +324,48 @@ img.hover-shadow {
 .cottage-page .wpo-about-text .wpo-sheafeature-section .col:nth-child(3) .wpo-features-icon{
   background: #d2ecf4;
 }
+.cottage-page .wpo-about-section-s5 .wpo-total-project{
+  background: linear-gradient(to left, #225c55, rgba(93, 196, 184, 0.85));
+    border-radius: 40px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+}
+.cottage-page .wpo-about-section-s5 .counter-2 .wpo-total-project{
+  background: linear-gradient(to left, #e4530f, rgba(230, 125, 28, 0.85));
+}
+.cottage-page .wpo-about-section-s5 .wpo-total-project .wpo-total-project-wrap{
+  display: flex;
+    align-items: center;
+}
+.cottage-page .wpo-about-section-s5 .counter-2 .wpo-total-project .wpo-total-project-wrap .wpo-total-project-icon{
+  background: #e4530f;
+}
+.cottage-page .wpo-about-section-s5 .wpo-total-project .wpo-total-project-wrap .wpo-total-project-icon{
+  background: #2b766e;
+  border-radius: 50%;
+  text-align: center;
+}
 
+.cottage-page .wpo-about-section-s5 .wpo-total-project .wpo-total-project-wrap .wpo-total-project-icon .fi{
+  color: #fff;
+}
+.cottage-page .wpo-about-section-s5 .wpo-total-project .wpo-total-project-wrap .wpo-total-project-text h3{
+  color: #fff;
+  margin-bottom: 0;
+}
+.cottage-page .wpo-about-section-s5 .wpo-total-project .wpo-total-project-wrap .wpo-total-project-text p{
+  color: #fff;
+  margin-bottom: 0;
+}
+.cottage-page .wpo-about-section-s5 .wpo-total-project .project-shape{
+  position: absolute;
+  right: -140px;
+  top: -60px;
+  z-index: -1;
+}
+    
 .wpo-sheafeature-section h4{
   text-align: center;
 }
@@ -409,4 +450,23 @@ img.hover-shadow {
 {
     left: 43%;
   }
+}
+@media (max-width: 1400px){
+.cottage-page .wpo-about-section-s5 .wpo-total-project .wpo-total-project-wrap .wpo-total-project-icon{
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  margin-right: 17px;
+}
+}
+@media (max-width: 1400px){
+  .cottage-page .wpo-about-section-s5 .wpo-total-project .wpo-total-project-wrap .wpo-total-project-icon .fi{
+    font-size: 20px;
+  }
+}
+@media (max-width: 1400px){
+  .cottage-page .wpo-about-section-s5 .wpo-total-project{
+    padding: 12px 10px;
+  }
+  
 }
