@@ -7276,7 +7276,6 @@ wpo-hero-section-6
 
 .volunteer-contact-form form input,
 .volunteer-contact-form form select,
-.volunteer-contact-form form label,
 .volunteer-contact-form form textarea {
   border: 1px solid #d0d4df;
   padding-left: 15px;
@@ -7284,11 +7283,11 @@ wpo-hero-section-6
   width: 100%;
 }
 
-.volunteer-contact-form form label {
+/* .volunteer-contact-form form label {
   line-height: 50px;
   font-weight: 400;
   font-size: 14px;
-}
+} */
 
 .volunteer-contact-form form label.error {
   height: 15px;
@@ -7314,7 +7313,7 @@ wpo-hero-section-6
 .volunteer-contact-form .form-group-in i {
   position: absolute;
   right: 30px;
-  top: 17px;
+  top: 35px;
   font-size: 20px;
 }
 

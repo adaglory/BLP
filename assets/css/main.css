@@ -294,6 +294,12 @@ img.hover-shadow {
 .cottage-page  .wpo-about-section-s5 {
   padding-top: 120px;
 }
+.sauki-page .wpo-breadcumb-area {
+  background: url(../images/sauki-health/sauki-health.png) no-repeat center top/cover;
+}
+.northeast .wpo-breadcumb-area {
+  background: url(../images/northeast/northeast.png) no-repeat center top/cover;
+}
 .cottage-page .wpo-about-text .wpo-sheafeature-section .wpo-features-icon {
   background: #dafdf9;
   box-shadow: 0px 0px 63px 0px rgb(4 8 88 / 5%);
@@ -381,6 +387,9 @@ img.hover-shadow {
 .advocacy-page .wpo-features-section-s2 .wpo-features-item{
   height: 400px;
 }
+.advocacy-page .wpo-features-section-s2 .wpo-features-item .wpo-features-icon{
+  border: 1px solid #ebebeb;
+}
 .wpo-features-section-s2 .advocacy-row .col:nth-child(2) .wpo-features-item {
   background: #f1e0ff;
 }
@@ -400,11 +409,17 @@ img.hover-shadow {
   color: #ED2024;
 }
 
+.volunteer-contact-form .form-group .required{
+  color: #ED2024;
+} 
 
+.sauki-page .wpo-about-section-s4 .maternal{
+  background: #ffefeb !important;
+}
 
-
-
-
+.sauki-page .wpo-about-section-s4 .school-based{
+  background: #d2ecf4 !important;
+}
 
 
 
