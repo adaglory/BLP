@@ -300,6 +300,12 @@ img.hover-shadow {
 .northeast .wpo-breadcumb-area {
   background: url(../images/northeast/northeast.png) no-repeat center top/cover;
 }
+.impact .wpo-breadcumb-area {
+  background: url(../images/impact/impact.png) no-repeat center top/cover !important;
+}
+.impact .wpo-about-video-area .wpo-about-video-img:before {
+  background: none;
+}
 .cottage-page .wpo-about-text .wpo-sheafeature-section .wpo-features-icon {
   background: #dafdf9;
   box-shadow: 0px 0px 63px 0px rgb(4 8 88 / 5%);
