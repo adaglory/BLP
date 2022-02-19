@@ -5737,7 +5737,7 @@ wpo-hero-section-6
 }
 .wpo-features-section-s2 .col:nth-child(2) .wpo-features-item {
   background: #fde4dd;
-  top: 70px;
+  /* top: 70px; */
 }
 @media (max-width: 1199px) {
   .wpo-features-section-s2 .col:nth-child(2) .wpo-features-item {

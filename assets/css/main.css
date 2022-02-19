@@ -303,8 +303,35 @@ img.hover-shadow {
 .impact .wpo-breadcumb-area {
   background: url(../images/impact/impact.png) no-repeat center top/cover !important;
 }
+.bgirl .wpo-breadcumb-area {
+  background: url(../images/b-girl/b-girl-header.png) no-repeat center top/cover !important;
+}
 .impact .wpo-about-video-area .wpo-about-video-img:before {
   background: none;
+}
+.impact .wpo-features-icon .icon img {
+  width: 80px;
+}
+.contact-page .wpo-contact-pg-section form input, .contact-page .wpo-contact-pg-section form select{
+   border: 1px solid #d0d4df;
+    padding-left: 15px;
+    height: 50px;
+    width: 100%;
+    background: none;
+    border-radius: 5px;
+}
+.contact-page .wpo-contact-pg-section form textarea{
+  border: 1px solid #d0d4df;
+  padding-left: 15px;
+  background: none;
+    border-radius: 5px;
+}
+.contact-page .wpo-contact-pg-section .office-info .office-info-item {
+  height: 300px;
+}
+.contact-page .wpo-contact-pg-section .wpo-contact-form-area {
+  margin-left: 100px;
+  margin-right: 100px;
 }
 .cottage-page .wpo-about-text .wpo-sheafeature-section .wpo-features-icon {
   background: #dafdf9;
@@ -317,6 +344,24 @@ img.hover-shadow {
   border-radius: 50%;
   position: relative;
    
+}
+.sponsor .wpo-about-section-s4 .wpo-about-items{
+  background: white;
+}
+.sponsor .wpo-about-section-s4 .wpo-about-wrap .wpo-about-img{
+  text-align: start;
+}
+.bgirl .wpo-features-section-s2 .wpo-features-item{
+  max-width: 100%;
+}
+.bgirl .wpo-features-section-s2 .feature-item-2{
+  background: #fde4dd !important;
+}
+.bgirl .wpo-features-section-s2{
+  padding: 0px;
+}
+.bgirl .wpo-project-single-section .wpo-project-single-wrap .wpo-features-section-s2 .col:nth-child(2) .wpo-features-item {
+  background: #fde4dd !important;
 }
 .cottage-page .wpo-about-text .wpo-sheafeature-section .wpo-features-icon .fi{
   font-size: 60px;
