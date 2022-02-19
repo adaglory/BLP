@@ -494,6 +494,10 @@ img.hover-shadow {
   .wpo-site-header .navbar-header .navbar-brand img {
       max-width: 200px;
   }
+  .contact-page .wpo-contact-pg-section .wpo-contact-form-area {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
   }
 
 @media (max-width: 991px) {
