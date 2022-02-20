@@ -351,6 +351,47 @@ img.hover-shadow {
 .sponsor .wpo-about-section-s4 .wpo-about-wrap .wpo-about-img{
   text-align: start;
 }
+.sponsor .wpo-benefits-section .accordion {
+  border-top: 1px solid #e1e1e1;
+}
+.sponsor .wpo-benefits-section .accordion-item {
+  border: 0;
+  border-bottom: 1px solid #e1e1e1;
+}
+.sponsor .wpo-benefits-section .accordion-item button {
+  padding: 20px;
+  border: 0;
+  border-radius: 0;
+  padding-left: 0;
+  padding-right: 0;
+  font-size: 20px;
+  color: #212158;
+  text-align: left;
+}
+.sponsor .wpo-benefits-section .accordion-item button.collapsed {
+  color: #373b3e;
+} 
+.sponsor .wpo-benefits-section .accordion-item button.collapsed::after {
+  content: "";
+}
+
+.sponsor .wpo-benefits-section .accordion-item button::after {
+  background: none;
+  font-family: "themify";
+  content: "";
+  font-size: 15px;
+  transform: rotate(
+0deg
+);
+  font-weight: 700;
+}
+.sponsor  .wpo-benefits-section .accordion-button {
+  background: transparent;
+}
+.sponsor .faq-section{
+  margin-bottom: 120px;
+}
+
 .bgirl .wpo-features-section-s2 .wpo-features-item{
   max-width: 100%;
 }
@@ -362,6 +403,9 @@ img.hover-shadow {
 }
 .bgirl .wpo-project-single-section .wpo-project-single-wrap .wpo-features-section-s2 .col:nth-child(2) .wpo-features-item {
   background: #fde4dd !important;
+}
+.bgirl .wpo-campaign-area .wpo-campaign-item{
+  height: 800px;
 }
 .cottage-page .wpo-about-text .wpo-sheafeature-section .wpo-features-icon .fi{
   font-size: 60px;
@@ -422,16 +466,16 @@ img.hover-shadow {
   top: -60px;
   z-index: -1;
 }
-    
-.wpo-sheafeature-section h4{
-  text-align: center;
-}
 .cottage-page .wpo-about-section-s3 {
   padding-top: 90px;
 }
 .cottage-page .wpo-about-video-area {
   padding-top: 60px;
+} 
+.wpo-sheafeature-section h4{
+  text-align: center;
 }
+
 .advocacy-page .wpo-features-section-s2 .wpo-features-item .wpo-features-text p{
   font-size: 14px;
 }
@@ -470,6 +514,15 @@ img.hover-shadow {
 
 .sauki-page .wpo-about-section-s4 .school-based{
   background: #d2ecf4 !important;
+}
+.sauki-page .wpo-about-section-s5 .wpo-about-wrap .ab-shape1{
+  position: absolute;
+  right: -30%;
+  top: -10%;
+  opacity: 0.1;
+  -webkit-animation: bounceTop 3s linear infinite;
+  animation: bounceTop 3s linear infinite;
+
 }
 .northeast .wpo-project-single-section .wpo-project-single-wrap .wpo-project-single-content .wpo-project-single-content-des .wpo-project-single-content-des-wrap {
   display: block;
