@@ -268,9 +268,8 @@ img.hover-shadow {
 .wpo-about-section-s4 {
   padding-top: 90px;
 }
-
-.about-page .wpo-campaign-area {
-  background: #fef6f3;
+.about-page .wpo-about-section-s4 .wpo-about-items{
+  background: none;
 }
 .about-page .wpo-about-section-s2 .wpo-about-text{
   max-width: 100%;
