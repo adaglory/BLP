@@ -302,8 +302,8 @@ img.hover-shadow {
 .impact .wpo-breadcumb-area {
   background: url(../images/impact/impact.png) no-repeat center top/cover !important;
 }
-.bgirl .wpo-breadcumb-area {
-  background: url(../images/b-girl/b-girl-header.png) no-repeat center top/cover !important;
+.impact .wpo-cta-area-s2 .wpo-cta-section{
+  padding-right: 0px;
 }
 .impact .wpo-about-video-area .wpo-about-video-img:before {
   background: none;
@@ -405,6 +405,15 @@ img.hover-shadow {
 }
 .bgirl .wpo-campaign-area .wpo-campaign-item{
   height: 800px;
+}
+.bgirl .wpo-breadcumb-area {
+  background: url(../images/b-girl/b-girl-header.png) no-repeat center top/cover !important;
+}
+.bgirl .wpo-cta-area .wpo-cta-section{
+  padding-right: 0px;
+}
+.bgirl .wpo-campaign-area{
+  padding-bottom: 0px;
 }
 .cottage-page .wpo-about-text .wpo-sheafeature-section .wpo-features-icon .fi{
   font-size: 60px;
@@ -605,3 +614,12 @@ img.hover-shadow {
   }
   
 }
+
+
+@media (max-width: 1500px){
+.bgirl .wpo-cta-area{
+  padding: 0px;
+  padding-bottom: 90px;
+}
+}
+
